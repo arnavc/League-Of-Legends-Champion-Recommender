@@ -19,3 +19,7 @@ The data set I worked with was provided on [Kaggle](https://www.kaggle.com/xenog
 In order to proceed with building a recommender system, I needed my data in a specific format. Pre-processing involved counting how many times a user had played each champion and then transferring that into a new matrix. This proved to be surprisingly difficult to do in an algorithmically efficient manner and actually being able to do it took a few days. I reformatted my data to have SummonerIDs as rows and all the 135 champions they could potentially have played as columns. I termed this to be my utility frequency matrix and as you can observe below, it was sparse as most users had not interacted with most champions. 
 
 - - - - - - IMAGE OF DATA TABLE - - - - - -
+
+# Method
+
+Building a recommender system usually involves one of the following approaches: Collaborative Filtering, Content-Based Filtering, or a Hybrid Recommendation System. Collaborative Filtering is a technique that relies on a massive data set w
